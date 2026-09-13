@@ -1,0 +1,205 @@
+@import "tailwindcss";
+@import "@inmind/ui/styles.css";
+
+@source "../../../../packages/ui/src";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --font-sans: var(--font-jost);
+  --color-im-ink: var(--im-ink);
+  --color-im-muted: var(--im-muted);
+  --color-im-pink: #ff4fd8;
+  --color-im-violet: #8b5cf6;
+  --color-im-surface: var(--im-surface);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--im-page);
+  color: var(--im-ink);
+  font-family: var(--font-jost), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: rgba(139, 92, 246, 0.18);
+}
+
+.im-atmosphere {
+  background:
+    radial-gradient(ellipse 80% 55% at 12% -10%, rgba(255, 79, 216, 0.16), transparent 55%),
+    radial-gradient(ellipse 70% 50% at 88% 0%, rgba(139, 92, 246, 0.14), transparent 50%),
+    radial-gradient(ellipse 50% 40% at 50% 100%, rgba(255, 79, 216, 0.06), transparent 60%),
+    var(--im-page);
+}
+
+html.dark .im-atmosphere {
+  background:
+    radial-gradient(ellipse 70% 50% at 15% -5%, rgba(255, 79, 216, 0.18), transparent 50%),
+    radial-gradient(ellipse 60% 45% at 90% 10%, rgba(139, 92, 246, 0.16), transparent 48%),
+    radial-gradient(ellipse 50% 40% at 50% 100%, rgba(255, 79, 216, 0.06), transparent 60%),
+    var(--im-page);
+}
+
+.im-atmosphere-dark {
+  background:
+    radial-gradient(ellipse 70% 50% at 15% -5%, rgba(255, 79, 216, 0.22), transparent 50%),
+    radial-gradient(ellipse 60% 45% at 90% 10%, rgba(139, 92, 246, 0.2), transparent 48%),
+    #050505;
+}
+
+.im-marketing-shell {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 1280px;
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .im-marketing-shell {
+    padding-inline: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .im-marketing-shell {
+    padding-inline: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .im-marketing-shell {
+    padding-inline: 2.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .im-marketing-shell {
+    padding-inline: 3rem;
+  }
+}
+
+
+@keyframes im-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.im-marquee-track {
+  animation: im-marquee 42s linear infinite;
+  width: max-content;
+}
+
+.im-marquee-fade {
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 6%,
+    #000 94%,
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 6%,
+    #000 94%,
+    transparent
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .im-marquee-track {
+    animation: none;
+  }
+}
+
+@keyframes im-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.im-float {
+  animation: im-float 7s ease-in-out infinite;
+}
+
+@keyframes im-shimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+.im-text-gradient {
+  background: linear-gradient(120deg, #ff7ae8 0%, #ff4fd8 28%, #a78bfa 68%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@keyframes im-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+[data-radix-popper-content-wrapper] [data-state="open"],
+[data-state="open"].animate-in {
+  animation: im-in 160ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Media kit + campaign report PDF export via browser print */
+@media print {
+  body {
+    background: #fff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .im-atmosphere {
+    background: #fff !important;
+  }
+
+  .print\:hidden {
+    display: none !important;
+  }
+
+  aside,
+  nav,
+  [data-shell-sidebar],
+  header {
+    display: none !important;
+  }
+
+  main {
+    padding: 0 !important;
+  }
+}
