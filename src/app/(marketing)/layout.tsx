@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { CookieConsent } from "@/components/marketing/CookieConsent";
 import { MarketingNav } from "@/components/marketing/MarketingNav";
 import { MarketingFooter } from "@/components/marketing/MarketingFooter";
+import { SiteAnalytics } from "@/components/marketing/SiteAnalytics";
 import {
   ThemeProvider,
   themeInitScript,
@@ -68,6 +69,7 @@ export default function MarketingLayout({
             <main>{children}</main>
             <MarketingFooter />
             <CookieConsent />
+            <SiteAnalytics />
           </div>
         </ThemeProvider>
       </body>

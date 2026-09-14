@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { CookieConsent } from "@/components/marketing/CookieConsent";
+import { SiteAnalytics } from "@/components/marketing/SiteAnalytics";
 import {
   ThemeProvider,
   themeInitScript,
@@ -29,6 +30,7 @@ export default function LegalLayout({
         <ThemeProvider>
           {children}
           <CookieConsent />
+          <SiteAnalytics />
         </ThemeProvider>
       </body>
     </html>

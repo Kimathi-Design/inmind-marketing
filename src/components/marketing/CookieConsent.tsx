@@ -9,6 +9,9 @@ const STORAGE_KEY = "inmind-cookie-consent";
 
 export type CookieChoice = "essential" | "all";
 
+/** Dispatched when the visitor saves a cookie preference. */
+export const CONSENT_EVENT = "inmind:cookie-consent";
+
 /** Reads the stored choice, or null when the visitor has not decided yet. */
 export function getCookieConsent(): CookieChoice | null {
   if (typeof window === "undefined") return null;
@@ -43,9 +46,7 @@ export function CookieConsent() {
     } catch {
       // Private browsing can reject writes; the banner still dismisses.
     }
-    window.dispatchEvent(
-      new CustomEvent("inmind:cookie-consent", { detail: choice })
-    );
+    window.dispatchEvent(new CustomEvent(CONSENT_EVENT, { detail: choice }));
     setVisible(false);
   }
 
