@@ -23,9 +23,8 @@ import {
 import { SITE } from "@/content/marketing/navigation";
 
 export const metadata: Metadata = {
-  title: `${SITE.product}: Influence, intelligently managed`,
-  description:
-    "Inmind brings creators, brands and agencies into one intelligent platform: discovery, campaigns, live social performance and measurable growth.",
+  title: { absolute: SITE.product },
+  description: SITE.tagline,
   alternates: { canonical: "/" },
 };
 

@@ -1,7 +1,7 @@
 export const SITE = {
   name: "Inmind",
-  product: "Inmind OS",
-  tagline: "The operating system for the creator economy.",
+  product: "Inmind",
+  tagline: "Influence, intelligently managed.",
   url: "https://inmind.demo",
 } as const;
 

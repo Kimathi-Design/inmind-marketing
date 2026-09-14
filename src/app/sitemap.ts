@@ -2,7 +2,10 @@ import type { MetadataRoute } from "next";
 import { RESOURCES } from "@/content/marketing/resources";
 
 const BASE =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ?? "https://inmind.media";
+  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : "https://inmind.media");
 
 const paths = [
   "/",

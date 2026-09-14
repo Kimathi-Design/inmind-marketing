@@ -1,4 +1,4 @@
-/** Canonical product mark - always render in all caps */
+/** Canonical product mark */
 export const BRAND_NAME = "Inmind";
-export const BRAND_PRODUCT = "Inmind OS";
+export const BRAND_PRODUCT = "Inmind";
 export const BRAND_AI = "Inmind AI";
