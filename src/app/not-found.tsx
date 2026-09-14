@@ -63,6 +63,7 @@ export default function NotFound() {
               >
                 {[
                   { href: "/platform", label: "Platform" },
+                  { href: "/faq", label: "FAQ" },
                   { href: "/creators", label: "Creators" },
                   { href: "/brands", label: "Brands" },
                   { href: "/resources", label: "Resources" },

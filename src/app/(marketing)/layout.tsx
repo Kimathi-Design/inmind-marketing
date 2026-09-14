@@ -3,26 +3,15 @@ import { CookieConsent } from "@/components/marketing/CookieConsent";
 import { MarketingNav } from "@/components/marketing/MarketingNav";
 import { MarketingFooter } from "@/components/marketing/MarketingFooter";
 import { SiteAnalytics } from "@/components/marketing/SiteAnalytics";
+import { JsonLd, siteJsonLd } from "@/components/marketing/JsonLd";
 import {
   ThemeProvider,
   themeInitScript,
 } from "@/components/theme/ThemeProvider";
 import { SITE } from "@/content/marketing/navigation";
 import { jost } from "@/lib/fonts";
+import { siteUrl } from "@/lib/site";
 import "../globals.css";
-
-function siteUrl() {
-  if (process.env.NEXT_PUBLIC_SITE_URL) {
-    return process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, "");
-  }
-  if (process.env.VERCEL_PROJECT_PRODUCTION_URL) {
-    return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
-  }
-  if (process.env.VERCEL_URL) {
-    return `https://${process.env.VERCEL_URL}`;
-  }
-  return "https://inmind.media";
-}
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
@@ -63,6 +52,7 @@ export default function MarketingLayout({
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
       </head>
       <body className="min-h-full font-sans antialiased">
+        <JsonLd data={siteJsonLd()} />
         <ThemeProvider>
           <div className="im-atmosphere min-h-screen overflow-x-clip bg-[var(--im-page)] text-[var(--im-ink)]">
             <MarketingNav />

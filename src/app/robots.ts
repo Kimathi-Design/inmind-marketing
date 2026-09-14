@@ -1,17 +1,13 @@
 import type { MetadataRoute } from "next";
-
-const BASE =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
-  (process.env.VERCEL_PROJECT_PRODUCTION_URL
-    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-    : "https://inmind.media");
+import { siteUrl } from "@/lib/site";
 
 export default function robots(): MetadataRoute.Robots {
+  const base = siteUrl();
   return {
     rules: {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: `${BASE}/sitemap.xml`,
+    sitemap: `${base}/sitemap.xml`,
   };
 }

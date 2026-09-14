@@ -1,11 +1,6 @@
 import type { MetadataRoute } from "next";
 import { RESOURCES } from "@/content/marketing/resources";
-
-const BASE =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
-  (process.env.VERCEL_PROJECT_PRODUCTION_URL
-    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-    : "https://inmind.media");
+import { siteUrl } from "@/lib/site";
 
 const paths = [
   "/",
@@ -21,6 +16,7 @@ const paths = [
   "/ai",
   "/about",
   "/careers",
+  "/faq",
   "/resources",
   "/resources/insights",
   "/resources/case-studies",
@@ -33,10 +29,11 @@ const paths = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const base = siteUrl();
   return paths.map((path) => ({
-    url: `${BASE}${path}`,
+    url: `${base}${path}`,
     lastModified: new Date(),
     changeFrequency: path === "/" ? "weekly" : "monthly",
-    priority: path === "/" ? 1 : 0.7,
+    priority: path === "/" ? 1 : path === "/faq" ? 0.8 : 0.7,
   }));
 }

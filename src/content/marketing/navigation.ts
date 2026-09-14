@@ -176,6 +176,7 @@ export const FOOTER = {
         { label: "About", href: "/about" },
         { label: "Contact", href: "/contact" },
         { label: "Careers", href: "/careers" },
+        { label: "FAQ", href: "/faq" },
       ],
     },
     {
