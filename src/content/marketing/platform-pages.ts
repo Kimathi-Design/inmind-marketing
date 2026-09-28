@@ -438,7 +438,7 @@ export const socialPlatformPage: PlatformRichPage = {
   },
   socialPosts: [
     {
-      img: "/portfolio/nairobi-dusk.webp",
+      img: "/portfolio/nairobi-kicc-portrait.webp",
       views: "1.2M",
       er: "8.4%",
       lift: "+42%",
