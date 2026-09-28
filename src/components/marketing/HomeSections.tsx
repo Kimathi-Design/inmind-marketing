@@ -1022,6 +1022,73 @@ export function RelationshipCRM() {
   );
 }
 
+const ORBIT_NODES = ["Creators", "Brands", "Agencies"] as const;
+const ORBIT_SECONDS = 48;
+
+function EcosystemOrbit() {
+  const reduce = useReducedMotion();
+  const spin = (direction: 1 | -1, duration: number) =>
+    reduce
+      ? {}
+      : {
+          animate: { rotate: 360 * direction },
+          transition: { duration, ease: "linear" as const, repeat: Infinity },
+        };
+
+  return (
+    <div className="relative mx-auto aspect-square w-full max-w-[320px] sm:max-w-[420px] md:max-w-[460px]">
+      <div className="absolute inset-[14%] rounded-full border border-dashed border-[var(--im-line-strong)]" />
+      <div className="absolute inset-[34%] rounded-full border border-[var(--im-line)]" />
+
+      <motion.div className="absolute inset-[14%]" {...spin(1, 7)}>
+        <span className="absolute left-1/2 top-0 h-2.5 w-2.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-violet-500 shadow-[0_0_14px_4px_rgba(139,92,246,0.55)]" />
+      </motion.div>
+
+      <motion.div className="absolute inset-[14%]" {...spin(1, ORBIT_SECONDS)}>
+        {ORBIT_NODES.map((node, i) => {
+          const angle = -90 + i * 120;
+          const rad = (angle * Math.PI) / 180;
+          return (
+            <div key={node}>
+              <span
+                className="absolute left-1/2 top-1/2 h-px w-1/2 origin-left bg-gradient-to-r from-transparent via-[var(--im-line-strong)] to-[var(--im-line-strong)]"
+                style={{ transform: `rotate(${angle}deg)` }}
+              />
+              <div
+                className="absolute -translate-x-1/2 -translate-y-1/2"
+                style={{
+                  left: `${50 + 50 * Math.cos(rad)}%`,
+                  top: `${50 + 50 * Math.sin(rad)}%`,
+                }}
+              >
+                <motion.div
+                  className="whitespace-nowrap rounded-[16px] border border-[var(--im-line)] bg-[var(--im-fill)] px-5 py-3 text-[15px] font-semibold tracking-[-0.03em] shadow-[var(--im-shadow-sm)] sm:px-7 sm:py-4 sm:text-[18px]"
+                  {...spin(-1, ORBIT_SECONDS)}
+                >
+                  {node}
+                </motion.div>
+              </div>
+            </div>
+          );
+        })}
+      </motion.div>
+
+      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+        {reduce ? null : (
+          <motion.span
+            className="absolute inset-0 rounded-full bg-[var(--im-ink)]"
+            animate={{ scale: [1, 1.5], opacity: [0.25, 0] }}
+            transition={{ duration: 2.4, ease: "easeOut", repeat: Infinity }}
+          />
+        )}
+        <div className="relative whitespace-nowrap rounded-full bg-[var(--im-ink)] px-5 py-2 text-[13px] font-medium text-[var(--im-on-ink)]">
+          InMind Intelligence
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export function Ecosystem() {
   return (
     <section className="py-16 sm:py-16 sm:py-20 md:py-24 lg:py-28">
@@ -1031,23 +1098,9 @@ export function Ecosystem() {
           headline={home.ecosystem.headline}
           body="Creators, brands and agencies share one connected intelligence layer across campaigns, social, analytics, AI and payments."
         />
-        <div className="mx-auto mt-14 flex max-w-3xl flex-col items-center gap-4">
-          {["Creators", "Brands", "Agencies"].map((node, i) => (
-            <FadeUp key={node} delay={i * 0.08}>
-              <div className="rounded-[16px] border border-[var(--im-line)] bg-[var(--im-fill)] px-8 py-4 text-[18px] font-semibold tracking-[-0.03em] shadow-[var(--im-shadow-sm)]">
-                {node}
-              </div>
-              {i < 2 ? (
-                <div className="mx-auto h-8 w-px bg-[var(--im-line-strong)]" />
-              ) : null}
-            </FadeUp>
-          ))}
-          <FadeUp delay={0.3}>
-            <div className="mt-2 rounded-full bg-[var(--im-ink)] px-5 py-2 text-[13px] font-medium text-[var(--im-on-ink)]">
-              InMind Intelligence
-            </div>
-          </FadeUp>
-        </div>
+        <FadeUp className="mt-12 md:mt-14">
+          <EcosystemOrbit />
+        </FadeUp>
         <div className="mx-auto mt-10 flex max-w-3xl flex-wrap justify-center gap-2">
           {home.ecosystem.nodes.map((n) => (
             <Badge key={n} tone="neutral">
