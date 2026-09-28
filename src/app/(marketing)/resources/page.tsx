@@ -24,7 +24,7 @@ export default function Page() {
       <EditorialHero
         eyebrow="Resources"
         headline={"Understand what's shaping\nthe creator economy."}
-        body="Case studies from live campaigns, market intelligence on where budgets are moving, and long-form strategy writing from the Inmind team."
+        body="Case studies from live campaigns, market intelligence on where budgets are moving, and long-form strategy writing from the InMind team."
         primaryCta={{ label: "Read case studies", href: "/resources/case-studies" }}
         secondaryCta={{ label: "Browse insights", href: "/resources/insights" }}
         image={{

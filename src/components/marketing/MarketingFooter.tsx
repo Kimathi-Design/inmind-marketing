@@ -93,7 +93,7 @@ export function MarketingFooter() {
         </div>
 
         <div className="mt-14 border-t border-white/10 pt-6 text-center text-[12.5px] text-white/40">
-          <p>© {new Date().getFullYear()} Inmind. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} InMind. All rights reserved.</p>
         </div>
       </div>
     </footer>

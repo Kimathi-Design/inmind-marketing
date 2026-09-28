@@ -29,6 +29,9 @@ const securityHeaders = [
 
 const nextConfig: NextConfig = {
   transpilePackages: ["@inmind/ui"],
+  experimental: {
+    globalNotFound: true,
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },

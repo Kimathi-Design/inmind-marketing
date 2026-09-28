@@ -14,12 +14,12 @@ const faqItems: { q: string; a: string }[] = home.faq.tabs.flatMap((tab) =>
 export const metadata: Metadata = {
   title: "FAQ",
   description:
-    "Answers for brands, creators and agencies getting started with Inmind.",
+    "Answers for brands, creators and agencies getting started with InMind.",
   alternates: { canonical: "/faq" },
   openGraph: {
-    title: "FAQ · Inmind",
+    title: "FAQ · InMind",
     description:
-      "Answers for brands, creators and agencies getting started with Inmind.",
+      "Answers for brands, creators and agencies getting started with InMind.",
   },
 };
 

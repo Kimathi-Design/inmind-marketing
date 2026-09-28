@@ -362,7 +362,7 @@ export const agenciesContent = {
     },
     {
       q: "How are permissions handled across clients?",
-      a: "Each client workspace is separate. Your team can be given access across the book, while client-side users are scoped to their own campaigns, approvals and reports.",
+      a: "Each client workspace is separate. Your team can be given access across your portfolio, while client-side users are scoped to their own campaigns, approvals and reports.",
     },
     {
       q: "Does this replace our talent management?",

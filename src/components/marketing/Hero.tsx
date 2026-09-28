@@ -319,7 +319,7 @@ export function Hero() {
                       +32%
                     </p>
                     <p className="mt-1 text-[9.5px] text-[var(--im-muted)] sm:text-[11px]">
-                      Vs last flight
+                      Vs last campaign
                     </p>
                   </Glass>
                 </motion.div>

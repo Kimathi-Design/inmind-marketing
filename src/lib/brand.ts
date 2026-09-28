@@ -1,4 +1,4 @@
 /** Canonical product mark */
-export const BRAND_NAME = "Inmind";
-export const BRAND_PRODUCT = "Inmind";
-export const BRAND_AI = "Inmind AI";
+export const BRAND_NAME = "InMind";
+export const BRAND_PRODUCT = "InMind";
+export const BRAND_AI = "InMind AI";

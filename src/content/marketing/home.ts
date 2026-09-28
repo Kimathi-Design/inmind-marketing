@@ -11,15 +11,15 @@ export const home = {
     eyebrow: "The creator economy, connected.",
     headlineLines: ["Influence,", "intelligently", "managed."],
     description:
-      "Inmind brings creators, brands and agencies into one intelligent platform: from discovery and campaign management to live social performance and measurable growth.",
-    primaryCta: { label: "Explore Inmind", href: "/platform" },
+      "InMind brings creators, brands and agencies into one intelligent platform: from discovery and campaign management to live social performance and measurable growth.",
+    primaryCta: { label: "Explore InMind", href: "/platform" },
     secondaryCta: { label: "Start a Campaign", href: "/contact" },
     trust: "Built for creators. Designed for brands. Powerful for agencies.",
   },
   partners: {
     eyebrow: "Partners & clients",
     headline: "Trusted by the teams\nshaping culture.",
-    body: "From global agency groups to iconic consumer brands, Inmind powers creator programmes that need to move fast and prove outcomes.",
+    body: "From global agency groups to iconic consumer brands, InMind powers creator programmes that need to move fast and prove outcomes.",
     logos: [
       {
         name: "WPP Scangroup",
@@ -88,14 +88,14 @@ export const home = {
       {
         value: "1",
         label: "Audit trail from brief to payout",
-        meta: "Every campaign on Inmind",
+        meta: "Every campaign on InMind",
       },
     ],
   },
   stories: {
     eyebrow: "From the field",
     headline: "Campaigns that moved the number.",
-    body: "Short stories from brands and creators who ran the work on Inmind.",
+    body: "Short stories from brands and creators who ran the work on InMind.",
     cta: { label: "All case studies", href: "/resources/case-studies" },
     items: [
       {
@@ -133,16 +133,16 @@ export const home = {
         label: "Brands",
         items: [
           {
-            q: "Is Inmind a marketplace or an operating system?",
+            q: "Is InMind a marketplace or an operating system?",
             a: "An operating system. You run discovery, campaigns, social monitoring and measurement in one place, whether you work with new creators or existing partners.",
           },
           {
             q: "Do I need to bring my own creators?",
-            a: "No. You can discover and shortlist from the Inmind directory, invite creators you already work with, or do both on the same campaign.",
+            a: "No. You can discover and shortlist from the InMind directory, invite creators you already work with, or do both on the same campaign.",
           },
           {
             q: "How do you measure ROI?",
-            a: "Trackable links, promo codes and live performance sit inside the campaign desk. You see reach, engagement and attributed actions while the flight is still running.",
+            a: "Trackable links, promo codes and live performance sit inside the campaign desk. You see reach, engagement and attributed actions while the campaign is still running.",
           },
           {
             q: "How do we get started?",
@@ -181,7 +181,7 @@ export const home = {
             a: "Yes. Each client keeps its own campaigns, creators and reporting, while your team works from a single operating layer.",
           },
           {
-            q: "Does Inmind replace our project tools?",
+            q: "Does InMind replace our project tools?",
             a: "For creator campaigns, yes for briefs, deliverables, approvals and publishing. You do not need to duplicate that work in a separate project tracker.",
           },
           {
@@ -190,7 +190,7 @@ export const home = {
           },
           {
             q: "Can we use our managed roster and the open directory?",
-            a: "Yes. Managed talent and Inmind directory creators can sit on the same campaign with the same briefing and approval flow.",
+            a: "Yes. Managed talent and InMind directory creators can sit on the same campaign with the same briefing and approval flow.",
           },
         ],
       },
@@ -199,7 +199,7 @@ export const home = {
   trustStrip: {
     eyebrow: "Platforms",
     headline: "Built for the people\nshaping culture.",
-    body: "Performance, publishing and proof across the platforms that matter: Instagram, TikTok, YouTube, X and Meta in one operating view.",
+    body: "Performance, publishing and proof across the platforms that matter most: Instagram, TikTok, YouTube, X and Meta, side by side.",
     platforms: [
       { name: "Instagram", icon: "Instagram" },
       { name: "TikTok", icon: "TikTok" },
@@ -209,10 +209,10 @@ export const home = {
     ] as const,
   },
   manifesto: {
-    headline: "Creator marketing grew up.\nThe tools didn't.",
+    headline: "Creator marketing has evolved.\nThe tools haven't.",
     body: [
-      "Discovery lives in one tool. Campaigns in another. Performance across five social platforms. Conversations buried in email and spreadsheets.",
-      "Inmind brings the entire creator relationship into one intelligent operating system.",
+      "Discovery lives in one tool, campaigns in another, and performance is spread across multiple social platforms. Conversations are buried in email and spreadsheets.",
+      "InMind brings the entire creator relationship into one intelligent operating system.",
     ],
     words: [
       { n: "01", label: "Discover" },
@@ -223,13 +223,13 @@ export const home = {
   },
   platform: {
     eyebrow: "One operating system",
-    headline: "Everything creator marketing needs.\nFinally connected.",
-    body: "Discover the right people. Build campaigns. Collaborate on content. Track every post. Understand what worked. Then make the next campaign smarter.",
+    headline: "Everything creator marketing needs,\nfinally connected.",
+    body: "Discover the right people. Build campaigns. Collaborate on content. Track every post. Understand what worked, then use those insights to make the next campaign smarter.",
     modules: [
       {
         id: "01",
         title: "Discover",
-        copy: "Audience fit, location, category and brand safety, ranked for the brief.",
+        copy: "Audience fit, location, category and brand safety, all ranked against your brief.",
         image: "/images/marketing/platform/discover.webp",
       },
       {
@@ -255,7 +255,7 @@ export const home = {
   discovery: {
     eyebrow: "Creator discovery",
     headline: "Find the right creator.\nNot just the biggest one.",
-    body: "Search creators by audience, category, location, platform, performance and brand fit. Inmind turns creator discovery into intelligent matching, ranked for outcomes, not vanity reach.",
+    body: "Search creators by audience, category, location, platform, performance and brand fit. InMind turns creator discovery into intelligent matching, ranked for outcomes, not vanity reach.",
     detail:
       "Describe the brief in plain language, open the Match Score™ signals behind every recommendation, then move shortlisted talent straight into the campaign desk.",
     query: "Find Kenyan lifestyle creators with strong Gen Z audiences.",
@@ -270,8 +270,8 @@ export const home = {
   },
   campaigns: {
     eyebrow: "Campaigns",
-    headline: "From brief to results.\nOne continuous workflow.",
-    body: "Plan campaigns, recruit creators, manage deliverables, review content, coordinate publishing and measure performance without leaving Inmind.",
+    headline: "From brief to results,\nthrough one continuous workflow.",
+    body: "Plan campaigns, recruit creators, manage deliverables, review content, coordinate publishing and measure performance without leaving InMind.",
     stages: [
       {
         label: "Discovery",
@@ -312,21 +312,21 @@ export const home = {
   },
   social: {
     eyebrow: "Live social intelligence",
-    headline: "See what happens\nafter you hit publish.",
+    headline: "See what happens\nafter you publish.",
     body: "Connect social channels and watch campaign content perform from one place. Follow posts, creators, engagement and audience response as the campaign unfolds.",
     platforms: ["Instagram", "TikTok", "YouTube", "X", "Facebook", "LinkedIn"],
   },
   ai: {
-    eyebrow: "Inmind Intelligence",
-    headline: "Data tells you what happened.\nInmind tells you what to do next.",
-    body: "Inmind AI connects creator, campaign and audience signals to surface the decisions that matter: from who to recruit to where to shift budget.",
+    eyebrow: "InMind Intelligence",
+    headline: "Data tells you what happened.\nInMind helps you decide what to do next.",
+    body: "InMind AI connects creator, campaign and audience signals to surface the decisions that matter: from who to recruit to where to shift budget.",
     insights: [
       "Dennis's content is outperforming the campaign average by 41%.",
-      "Micro creators are generating 2.3× stronger engagement.",
-      "Move 15% of remaining budget toward TikTok.",
+      "Micro-creators are generating 2.3× higher engagement.",
+      "Shift 15% of the remaining budget towards TikTok.",
       "12 emerging creators match this campaign.",
     ],
-    cta: { label: "Meet Inmind AI", href: "/ai" },
+    cta: { label: "Meet InMind AI", href: "/ai" },
   },
   audiences: {
     eyebrow: "Where you fit",
@@ -359,15 +359,15 @@ export const home = {
   },
   measurement: {
     eyebrow: "Measurement",
-    headline: "Turn performance\ninto decisions.",
-    body: "Understand creators, content, campaigns and audiences through analytics designed for action, not reporting for reporting's sake.",
+    headline: "Turn performance data\ninto better decisions.",
+    body: "Understand creators, content, campaigns and audiences through analytics designed to drive action, not simply produce reports.",
   },
   crm: {
     headline: "The best creator relationships\nshouldn't start from zero.",
-    body: "Inmind remembers every collaboration: campaign history, performance, communication, preferences and relationship strength, so your creator network gets more valuable over time.",
+    body: "InMind remembers every collaboration: campaign history, performance, communication, preferences and relationship strength, so your creator network gets more valuable over time.",
   },
   ecosystem: {
-    headline: "One connected creator ecosystem.",
+    headline: "One connected ecosystem for creators, brands and agencies.",
     nodes: [
       "Campaigns",
       "Social",

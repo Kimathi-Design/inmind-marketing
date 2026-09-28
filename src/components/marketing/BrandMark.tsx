@@ -2,7 +2,7 @@ import Image from "next/image";
 import { cn } from "@inmind/ui";
 
 /**
- * Official Inmind wordmark + mark.
+ * Official InMind wordmark + mark.
  * Black on light surfaces, white on dark theme / forced dark panels.
  */
 export function BrandMark({
@@ -19,7 +19,7 @@ export function BrandMark({
     return (
       <Image
         src="/brand/inmind-white.png"
-        alt="Inmind"
+        alt="InMind"
         width={2094}
         height={751}
         priority
@@ -32,7 +32,7 @@ export function BrandMark({
     <span className="relative inline-flex items-center leading-none">
       <Image
         src="/brand/inmind-black.png"
-        alt="Inmind"
+        alt="InMind"
         width={2094}
         height={751}
         priority

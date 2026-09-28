@@ -48,7 +48,7 @@ export const RESOURCE_COLLECTIONS: {
     kind: "blog",
     slug: "blog",
     label: "Blog",
-    title: "The Inmind strategy series",
+    title: "The InMind strategy series",
     description:
       "Long-form thinking on creator selection, brand fit, campaign operations and building trust that scales.",
   },
@@ -178,7 +178,7 @@ export const RESOURCES: Resource[] = [
       { type: "h2", text: "The three pillars of creator intelligence" },
       {
         type: "p",
-        text: "Inmind proposes a strategic framework built around three critical intelligence layers to keep strategy, execution, and analytics aligned:",
+        text: "InMind proposes a strategic framework built around three critical intelligence layers to keep strategy, execution, and analytics aligned:",
       },
       {
         type: "ul",
@@ -348,7 +348,7 @@ export const RESOURCES: Resource[] = [
         type: "p",
         text: "SHOWAPP, a rising entertainment platform, needed to drive massive app downloads and trial signups among young urban consumers. With limited traditional media budgets and high benchmarks for conversion cost, they required an acquisition model that combined broad brand awareness with direct performance outcomes.",
       },
-      { type: "h2", text: "The Inmind approach" },
+      { type: "h2", text: "The InMind approach" },
       {
         type: "p",
         text: "We designed a multi-phased creator launch wave, shortlisting 12 lifestyle, music, and campus creators who possessed highly engaged, verified audiences. Each creator was equipped with customised mobile download links, enabling direct install tracking, and was tasked with creating raw, native reviews of the app experience.",
@@ -397,7 +397,7 @@ export const RESOURCES: Resource[] = [
       { type: "h2", text: "Roster design and content strategy" },
       {
         type: "p",
-        text: "Inmind structured an always-on ambassador roster composed of family lifestyle and parenting creators. Over a six-month period, these creators integrated Brookside milk, yoghurt, and butter naturally into daily family routines, documenting breakfast prep, school lunchbox ideas, and family dessert times.",
+        text: "InMind structured an always-on ambassador roster composed of family lifestyle and parenting creators. Over a six-month period, these creators integrated Brookside milk, yoghurt, and butter naturally into daily family routines, documenting breakfast prep, school lunchbox ideas, and family dessert times.",
       },
       {
         type: "ul",
@@ -443,7 +443,7 @@ export const RESOURCES: Resource[] = [
       { type: "h2", text: "Test setup and execution" },
       {
         type: "p",
-        text: "Inmind designed a controlled reach efficiency test, contracting 6 creators to produce platform-native recipe and lifestyle videos. We tracked organic CPM, watch-time retention, and cost-per-engagement, then converted the top-performing organic assets into TikTok Spark Ads for paid amplification.",
+        text: "InMind designed a controlled reach efficiency test, contracting 6 creators to produce platform-native recipe and lifestyle videos. We tracked organic CPM, watch-time retention, and cost-per-engagement, then converted the top-performing organic assets into TikTok Spark Ads for paid amplification.",
       },
       { type: "h2", text: "Key learnings and scaling" },
       {
@@ -461,7 +461,7 @@ export const RESOURCES: Resource[] = [
     excerpt:
       "Why traditional advertising is losing its edge, and how strategic creator partnerships build authentic consumer trust that scales.",
     readTime: "10 min read",
-    date: "Inmind Strategy Series",
+    date: "InMind Strategy Series",
     image: "/images/marketing/resources/people-dont-trust-ads-they-trust-people.webp",
     tags: [
       "Consumer trust",
@@ -574,7 +574,7 @@ export const RESOURCES: Resource[] = [
     excerpt:
       "Why follower count is a misleading vanity metric, and how to select creators using data-informed audience fit and performance signals.",
     readTime: "11 min read",
-    date: "Inmind Strategy Series",
+    date: "InMind Strategy Series",
     image: "/images/marketing/resources/follower-count-is-least-interesting-thing-about-a-creator.webp",
     tags: [
       "Micro vs macro creators",
@@ -650,7 +650,7 @@ export const RESOURCES: Resource[] = [
         type: "p",
         text: "Instead of putting your entire budget into one celebrity creator, create a balanced portfolio. Use micro and mid-tier creators to drive conversions and authentic stories, while selectively using macro-creators for broad visibility.",
       },
-      { type: "h2", text: "The Inmind selection model (SCOR)" },
+      { type: "h2", text: "The InMind selection model (SCOR)" },
       {
         type: "ul",
         items: [
@@ -681,7 +681,7 @@ export const RESOURCES: Resource[] = [
     excerpt:
       "The essential management steps between briefing creators and getting campaign results that let creator marketing run smoothly.",
     readTime: "11 min read",
-    date: "Inmind Strategy Series",
+    date: "InMind Strategy Series",
     image: "/images/marketing/resources/everything-between-the-brief-and-the-results.webp",
     tags: [
       "Campaign orchestration",
@@ -772,7 +772,7 @@ export const RESOURCES: Resource[] = [
     excerpt:
       "Move beyond basic search tools to evaluate true creator brand fit, shared values, creative style and long-term partnership potential.",
     readTime: "10 min read",
-    date: "Inmind Strategy Series",
+    date: "InMind Strategy Series",
     image: "/images/marketing/resources/beyond-the-algorithm-how-to-choose-creators-that-fit.webp",
     tags: [
       "Creator discovery",

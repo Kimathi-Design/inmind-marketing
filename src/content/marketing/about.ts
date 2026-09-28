@@ -1,11 +1,11 @@
 export const aboutContent = {
   title: "About",
   description:
-    "Inmind is building the operating system for creator marketing, one intelligent layer for discovery, campaigns and measurement.",
+    "InMind is building the operating system for creator marketing, one intelligent layer for discovery, campaigns and measurement.",
   hero: {
-    eyebrow: "About Inmind",
+    eyebrow: "About InMind",
     headline: "We're building the infrastructure\nbehind modern influence.",
-    body: "Creators became media companies. Brands became publishers. Culture became distributed. The tools connecting them stayed fragmented. Inmind exists to fix that.",
+    body: "Creators have become media companies. Brands have become publishers. Culture has become increasingly distributed, yet the tools connecting them remain fragmented. InMind exists to change that.",
     primaryCta: { label: "Contact us", href: "/contact" },
     secondaryCta: { label: "Explore the platform", href: "/platform" },
     image: {
@@ -28,37 +28,37 @@ export const aboutContent = {
       },
       {
         title: "Trust is infrastructure",
-        body: "Governance, consent, contracts and audit trails are product requirements, not paperwork you handle outside the platform.",
+        body: "Governance, consent, contracts and audit trails are built into the product from the start, not handled as paperwork outside the platform.",
       },
     ],
   },
   story: {
     eyebrow: "Our story",
     headline: "Built where creator culture\nmoves fastest.",
-    body: "Inmind started with a simple observation: the teams running creator campaigns were world-class at culture, but the tools they used were stuck in fragments.",
+    body: "InMind started with a simple observation: the teams running creator campaigns were world-class at culture, but the tools they used were stuck in fragments.",
     points: [
       "Discovery in one place, campaigns in another, performance scattered across platforms.",
       "Brands, agencies and creators each carrying their own version of the truth.",
       "Great work happening, but hard to repeat, hard to prove, hard to scale.",
-      "We built Inmind OS to connect the full lifecycle in one intelligent layer.",
+      "We built InMind to connect the full lifecycle in one intelligent layer.",
     ],
     image: {
       src: "/images/marketing/brands/team-01.webp",
-      alt: "Inmind team collaborating",
+      alt: "InMind team collaborating",
     },
   },
   pillars: [
     {
       title: "Mission",
-      body: "Make creator marketing an accountable, repeatable growth channel.",
+      body: "Make creator marketing a more accountable, repeatable and measurable growth channel.",
     },
     {
       title: "Vision",
-      body: "One intelligent operating system for creators, brands and agencies.",
+      body: "Build one intelligent operating system for creators, brands and agencies.",
     },
     {
       title: "Product philosophy",
-      body: "Discover → orchestrate → support → measure → learn, in one system of record.",
+      body: "Discover, orchestrate, support, measure and learn, all within one system of record.",
     },
     {
       title: "How we work",

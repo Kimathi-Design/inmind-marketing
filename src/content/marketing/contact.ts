@@ -1,7 +1,7 @@
 export const contactPage = {
   title: "Contact",
   description:
-    "Start a creator campaign with Inmind. Tell us your objective and we'll shape the strategy, talent mix and execution plan.",
+    "Start a creator campaign with InMind. Tell us your objective and we'll shape the strategy, talent mix and execution plan.",
   hero: {
     eyebrow: "Start a campaign",
     headline: "Let's build your\nnext creator campaign.",
@@ -81,7 +81,7 @@ export const contactPage = {
       },
       {
         title: "We kick off together",
-        body: "Once aligned, we onboard your team and start building the campaign in Inmind.",
+        body: "Once aligned, we onboard your team and start building the campaign in InMind.",
       },
     ],
   },

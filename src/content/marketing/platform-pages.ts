@@ -63,7 +63,7 @@ export type PlatformRichPage = MarketingPageConfig & {
 export const platformOverviewPage: PlatformRichPage = {
   title: "Platform",
   description:
-    "Inmind OS connects creator intelligence, campaign operations, social performance and AI in one governed layer.",
+    "InMind connects creator intelligence, campaign operations, social performance and AI in a single governed layer.",
   hero: {
     eyebrow: "Platform",
     headline: "Everything connected.\nOne operating layer.",
@@ -93,13 +93,13 @@ export const platformOverviewPage: PlatformRichPage = {
     {
       label: "Campaign Management",
       href: "/campaign-management",
-      description: "Brief, recruit, produce, approve, publish and report in one desk.",
+      description: "Brief, recruit, produce, approve, publish and report in a single workflow.",
       image: "/images/marketing/campaigns/shoot-01.webp",
     },
     {
       label: "Analytics",
       href: "/analytics",
-      description: "Live performance, benchmarks and ROI while campaigns are in flight.",
+      description: "Live performance, benchmarks and ROI while campaigns are running.",
       image: "/images/marketing/platform/measure.webp",
     },
     {
@@ -109,7 +109,7 @@ export const platformOverviewPage: PlatformRichPage = {
       image: "/images/marketing/hero/creator-phone.webp",
     },
     {
-      label: "Inmind AI",
+      label: "InMind AI",
       href: "/ai",
       description: "Practical next steps from creator, campaign and audience signals.",
       image: "/images/marketing/resources/influence-intelligence-trends-2026.webp",
@@ -124,7 +124,7 @@ export const platformOverviewPage: PlatformRichPage = {
   spotlight: {
     eyebrow: "Why one layer",
     headline: "Stop stitching tools\ntogether every campaign.",
-    body: "Most teams run discovery in one place, campaigns in another and performance in five platform dashboards. Inmind replaces the patchwork.",
+    body: "Most teams run discovery in one place, campaigns in another and performance in five platform dashboards. InMind replaces the patchwork.",
     points: [
       "One creator record shared across discovery, campaigns and CRM.",
       "Approvals, contracts and deliverables tied to the same campaign object.",
@@ -147,7 +147,7 @@ export const platformOverviewPage: PlatformRichPage = {
       },
       {
         title: "Activate",
-        body: "Invite, contract and brief talent from the campaign desk.",
+        body: "Invite, contract and brief creators from the campaign workspace.",
       },
       {
         title: "Operate",
@@ -162,15 +162,15 @@ export const platformOverviewPage: PlatformRichPage = {
   features: [
     { title: "Creator Intelligence", body: "Profiles, audiences, scores and authenticity." },
     { title: "Campaign OS", body: "From brief to publish with role-based control." },
-    { title: "Creator CRM", body: "Relationships that improve every flight." },
+    { title: "Creator CRM", body: "Relationships that improve with every campaign." },
     { title: "Social Intelligence", body: "Posts and platforms in one performance view." },
     { title: "Analytics & attribution", body: "Exposure to visits, leads and sales signals." },
-    { title: "Inmind AI", body: "Practical next steps from live signals." },
+    { title: "InMind AI", body: "Practical next steps from live signals." },
   ],
   faq: [
     {
-      q: "Is Inmind a marketplace or an operating system?",
-      a: "An operating system. You run your creator marketing workflow in Inmind, discovery, campaigns, social monitoring and measurement, whether you work with new creators or existing partners.",
+      q: "Is InMind a marketplace or an operating system?",
+      a: "An operating system. You run your creator marketing workflow in InMind, discovery, campaigns, social monitoring and measurement, whether you work with new creators or existing partners.",
     },
     {
       q: "Can we bring creators we already work with?",
@@ -189,7 +189,7 @@ export const discoveryPlatformPage: PlatformRichPage = {
   hero: {
     eyebrow: "Creator discovery",
     headline: "Find creators built\nfor the brief.",
-    body: "Natural language search, advanced filters, audience matching, scoring, authenticity and rising talent, ranked for outcomes, not follower count.",
+    body: "Use natural language search, advanced filters, audience matching, authenticity signals and rising talent discovery, all ranked against your campaign objectives, not follower count.",
     primaryCta: { label: "Start a Campaign", href: "/contact" },
     image: {
       src: "/images/marketing/platform/discover.webp",
@@ -274,12 +274,12 @@ export const discoveryPlatformPage: PlatformRichPage = {
     reverse: true,
   },
   features: [
-    { title: "Natural language search", body: "Describe the audience. Get ranked creators." },
-    { title: "Advanced filters", body: "Category, location, platform, tier and safety." },
-    { title: "Match Score™", body: "Objective-first matching against your campaign." },
-    { title: "Authenticity", body: "Quality signals before you invite." },
-    { title: "Rising talent", body: "Emerging creators with strong efficiency." },
-    { title: "Creator pools", body: "Agency and brand shortlists that persist." },
+    { title: "Natural language search", body: "Describe your audience and get a ranked list of relevant creators." },
+    { title: "Advanced filters", body: "Filter creators by category, location, platform, creator tier and brand safety." },
+    { title: "Match Score™", body: "Match creators against your campaign objectives first." },
+    { title: "Authenticity", body: "Evaluate creator quality and authenticity before you invite them." },
+    { title: "Rising talent", body: "Discover emerging creators delivering strong engagement and performance." },
+    { title: "Creator pools", body: "Create and save creator shortlists for future campaigns." },
   ],
   faq: [
     {
@@ -298,8 +298,8 @@ export const campaignsPlatformPage: PlatformRichPage = {
   description: "Every campaign, creator and moving part in one continuous workflow.",
   hero: {
     eyebrow: "Campaigns",
-    headline: "Every campaign.\nEvery creator.\nOne desk.",
-    body: "Create campaigns, brief talent, manage deliverables, approve content, coordinate publishing and measure performance, without leaving Inmind.",
+    headline: "Every campaign.\nEvery creator.\nEvery moving part.",
+    body: "Create campaigns, brief creators, manage deliverables, approve content, coordinate publishing and measure performance, all without leaving InMind.",
     primaryCta: { label: "Start a Campaign", href: "/contact" },
     image: {
       src: "/images/marketing/campaigns/shoot-01.webp",
@@ -344,12 +344,12 @@ export const campaignsPlatformPage: PlatformRichPage = {
     },
   },
   features: [
-    { title: "Campaign creation", body: "Objectives, markets, platforms and KPIs." },
-    { title: "Recruitment", body: "Invite, negotiate and seat creators." },
-    { title: "Deliverables", body: "Briefs, due dates and live metrics." },
-    { title: "Content approval", body: "QA with change notes and audit trail." },
-    { title: "Publishing", body: "Tracking links and promo codes ready." },
-    { title: "Reporting", body: "Scorecards, attribution and learnings." },
+    { title: "Campaign creation", body: "Define objectives, target markets, platforms and KPIs." },
+    { title: "Recruitment", body: "Invite creators, negotiate terms and manage participation." },
+    { title: "Deliverables", body: "Manage briefs, deadlines and live performance metrics." },
+    { title: "Content approval", body: "Review content with change notes and a complete audit trail." },
+    { title: "Publishing", body: "Set up tracking links and promo codes for campaign measurement." },
+    { title: "Reporting", body: "Generate scorecards, attribution reports and actionable campaign learnings." },
   ],
   faq: [
     {
@@ -358,7 +358,7 @@ export const campaignsPlatformPage: PlatformRichPage = {
     },
     {
       q: "Does this replace our project management tool?",
-      a: "For creator campaigns, yes. Briefs, deliverables, approvals and publishing are native to Inmind rather than duplicated in Asana or Monday.",
+      a: "For creator campaigns, yes. Briefs, deliverables, approvals and publishing are native to InMind rather than duplicated in Asana or Monday.",
     },
   ],
 };
@@ -369,7 +369,7 @@ export const analyticsPlatformPage: PlatformRichPage = {
   hero: {
     eyebrow: "Analytics",
     headline: "Know what's working.\nWhile it's still working.",
-    body: "Live performance, creator comparison, content and audience analytics, benchmarks, ROI and AI insights designed for action, not decks you build after the campaign ends.",
+    body: "Track live performance, compare creators, analyse content and audiences, benchmark campaigns, measure ROI and surface AI-powered insights designed to drive action, not decks you build after the campaign ends.",
     primaryCta: { label: "Start a Campaign", href: "/contact" },
     image: {
       src: "/images/marketing/platform/measure.webp",
@@ -379,7 +379,7 @@ export const analyticsPlatformPage: PlatformRichPage = {
   outcomes: {
     eyebrow: "What teams measure",
     headline: "From engagement\nto business outcomes.",
-    body: "Figures from campaigns run on Inmind and published research.",
+    body: "Figures from campaigns run on InMind and published research.",
     stats: [
       { value: "-28%", label: "CPM vs paid display baseline", meta: "FMCG test" },
       { value: "3.4x", label: "Video completion vs paid social", meta: "FMCG test" },
@@ -404,12 +404,12 @@ export const analyticsPlatformPage: PlatformRichPage = {
     reverse: true,
   },
   features: [
-    { title: "Live performance", body: "Views, reach, ER and tracked actions in flight." },
-    { title: "Creator comparison", body: "Scorecards across the roster." },
-    { title: "Content analytics", body: "What formats and narratives land." },
-    { title: "Audience analytics", body: "Who actually saw the work." },
-    { title: "Campaign benchmarks", body: "Compare flights and cohorts." },
-    { title: "ROI & attribution", body: "Exposure to customer outcomes." },
+    { title: "Live performance", body: "Track views, reach, engagement rate and tracked actions while campaigns are live." },
+    { title: "Creator comparison", body: "Compare creator performance across your roster with clear scorecards." },
+    { title: "Content analytics", body: "Understand which formats and narratives perform best." },
+    { title: "Audience analytics", body: "Understand who actually saw and engaged with your content." },
+    { title: "Campaign benchmarks", body: "Compare campaign flights and audience cohorts." },
+    { title: "ROI & attribution", body: "Connect campaign exposure to measurable customer outcomes." },
   ],
   faq: [
     {
@@ -429,7 +429,7 @@ export const socialPlatformPage: PlatformRichPage = {
   hero: {
     eyebrow: "Social intelligence",
     headline: "See what happens\nafter you hit publish.",
-    body: "Connect Instagram, TikTok, YouTube, Facebook, LinkedIn and X. Watch campaign content perform as it unfolds, one operating view across platforms.",
+    body: "Connect Instagram, TikTok, YouTube, Facebook, LinkedIn and X, then monitor campaign performance as it unfolds in a unified view across platforms.",
     primaryCta: { label: "Start a Campaign", href: "/contact" },
     image: {
       src: "/images/marketing/hero/creator-phone.webp",
@@ -472,12 +472,12 @@ export const socialPlatformPage: PlatformRichPage = {
     },
   },
   features: [
-    { title: "Instagram & TikTok", body: "Reach, views, interactions and watch behaviour." },
+    { title: "Instagram & TikTok", body: "Track reach, views, interactions and viewing behaviour." },
     { title: "YouTube", body: "Views, retention and channel performance." },
-    { title: "X & LinkedIn", body: "Conversation, engagement and link activity." },
-    { title: "Facebook", body: "Content performance in the Meta graph." },
-    { title: "Unified metrics", body: "One operating view across platforms." },
-    { title: "Governance", body: "Permissions, consent and audit-ready sync." },
+    { title: "X & LinkedIn", body: "Track conversations, engagement and link activity." },
+    { title: "Facebook", body: "Track content performance across Meta platforms." },
+    { title: "Unified metrics", body: "One unified view of performance across platforms." },
+    { title: "Governance", body: "Manage permissions and consent with audit-ready data synchronisation." },
   ],
   faq: [
     {
@@ -492,26 +492,26 @@ export const socialPlatformPage: PlatformRichPage = {
 };
 
 export const aiPlatformPage: PlatformRichPage = {
-  title: "Inmind AI",
+  title: "InMind AI",
   description: "Practical intelligence for matching, planning and next actions.",
   hero: {
-    eyebrow: "Inmind AI",
-    headline: "Data tells you what happened.\nInmind tells you what to do next.",
-    body: "Practical outputs from creator, campaign and audience signals, who to recruit, where to shift budget, what to learn next. Not magic. Intelligence you can act on.",
+    eyebrow: "InMind AI",
+    headline: "Data tells you what happened.\nInMind helps you decide what to do next.",
+    body: "Not magic. Practical recommendations drawn from creator, campaign and audience signals, helping you decide who to recruit, where to shift budget and what to do next.",
     primaryCta: { label: "Start a Campaign", href: "/contact" },
     image: {
       src: "/images/marketing/resources/influence-intelligence-trends-2026.webp",
-      alt: "Inmind AI intelligence layer",
+      alt: "InMind AI intelligence layer",
     },
   },
   insights: {
     eyebrow: "Live recommendations",
     headline: "Signals turned\ninto decisions.",
-    body: "Examples of the kind of outputs Inmind AI surfaces during an active campaign.",
+    body: "Examples of the kind of outputs InMind AI surfaces during an active campaign.",
     items: [
-      "Dennis's content is outperforming the campaign average by 41%. Consider increasing his seat.",
-      "Micro creators are generating 2.3× stronger engagement on TikTok this flight.",
-      "Move 15% of remaining budget toward TikTok based on current efficiency.",
+      "Dennis's content is outperforming the campaign average by 41%. Consider increasing his share of the budget.",
+      "Micro-creators are generating 2.3× higher engagement on TikTok this campaign.",
+      "Shift 15% of the remaining budget towards TikTok based on current performance.",
       "12 emerging creators match your brief but aren't on the current roster.",
       "Completion rate on Reels is 3.4× your paid social baseline, extend the format.",
       "Three creators haven't posted within the agreed window, send a reminder.",
@@ -534,16 +534,16 @@ export const aiPlatformPage: PlatformRichPage = {
     reverse: true,
   },
   features: [
-    { title: "Creator matching", body: "Rank talent against the brief." },
-    { title: "Campaign planning", body: "Objectives, mix and seat recommendations." },
-    { title: "Performance insights", body: "What's outperforming, and why it matters." },
-    { title: "Predictive recommendations", body: "Budget and format shifts in flight." },
-    { title: "Trend intelligence", body: "Culture signals that inform the next brief." },
-    { title: "Role copilots", body: "Creator, brand and agency assistants." },
+    { title: "Creator matching", body: "Rank creators against your campaign brief." },
+    { title: "Campaign planning", body: "Recommendations for campaign objectives, creator mix and participation." },
+    { title: "Performance insights", body: "Identify what's outperforming and understand why it matters." },
+    { title: "Predictive recommendations", body: "Recommend budget and content format adjustments while the campaign is live." },
+    { title: "Trend intelligence", body: "Identify cultural and audience signals that can inform your next campaign brief." },
+    { title: "Role copilots", body: "AI assistants tailored to creators, brands and agencies." },
   ],
   faq: [
     {
-      q: "Is Inmind AI a chatbot?",
+      q: "Is InMind AI a chatbot?",
       a: "It includes conversational copilots, but the core value is proactive recommendations surfaced in context, on the campaign desk, in discovery and in reporting.",
     },
     {
@@ -559,7 +559,7 @@ export const featuresPlatformPage: PlatformRichPage = {
   hero: {
     eyebrow: "Creator intelligence",
     headline: "Every creator.\nOne record.\nFull context.",
-    body: "Verified profiles, audience analytics, Match Score™, CRM history, collaboration and payments: the intelligence layer everything else in Inmind builds on.",
+    body: "Verified profiles, audience analytics, Match Score™, CRM history, collaboration and payments: the intelligence layer everything else in InMind builds on.",
     primaryCta: { label: "Start a Campaign", href: "/contact" },
     image: {
       src: "/images/marketing/creators/faith-kipyegon.webp",
@@ -567,7 +567,7 @@ export const featuresPlatformPage: PlatformRichPage = {
     },
   },
   proof: {
-    eyebrow: "The talent graph",
+    eyebrow: "The creator ecosystem",
     stats: [
       { value: "6", label: "Platforms per creator profile" },
       { value: "1", label: "CRM record across every collaboration" },
@@ -606,7 +606,7 @@ export const featuresPlatformPage: PlatformRichPage = {
     { title: "Approvals", body: "Creative QA with governance." },
     { title: "Live Analytics", body: "Performance designed for decisions." },
     { title: "Social Intelligence", body: "Cross-platform post monitoring." },
-    { title: "Inmind AI", body: "Next actions from live signals." },
+    { title: "InMind AI", body: "Next actions from live signals." },
   ],
   faq: [
     {

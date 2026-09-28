@@ -149,6 +149,8 @@ export function TextReveal({
           >
             {line}
           </motion.span>
+          {/* Keeps copied text and screen readers from joining lines into one word. */}
+          {i < lines.length - 1 ? " " : null}
         </span>
       ))}
     </Tag>

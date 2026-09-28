@@ -3,11 +3,11 @@ import type { MarketingPageConfig } from "@/components/marketing/MarketingStoryP
 export const creatorsPage: MarketingPageConfig = {
   title: "For Creators",
   description:
-    "Turn your audience, content and reputation into a professional creator identity brands can understand.",
+    "Turn your audience, content and reputation into a professional creator profile that brands can understand and trust.",
   hero: {
     eyebrow: "For creators",
-    headline: "Your creator career.\nOne place to grow it.",
-    body: "Turn your audience, content and reputation into a professional creator identity brands can understand.",
+    headline: "Your creator career,\nall in one place.",
+    body: "Turn your audience, content and reputation into a professional creator profile that brands can understand and trust.",
     primaryCta: { label: "Start a Campaign", href: "/contact" },
     image: {
       src: "/images/marketing/creators/dennis-ombachi.webp",
@@ -21,23 +21,23 @@ export const creatorsPage: MarketingPageConfig = {
     },
     {
       title: "Social analytics",
-      body: "Understand what performs across the channels you connect.",
+      body: "Understand what performs best across the channels you connect.",
     },
     {
       title: "Brand opportunities",
-      body: "Invites matched to your niche, markets and audience, not noise.",
+      body: "Receive opportunities matched to your niche, markets and audience, rather than irrelevant offers.",
     },
     {
       title: "Campaign workspace",
-      body: "Briefs, deliverables, deadlines and publishing in one desk.",
+      body: "Manage briefs, deliverables, deadlines and publishing from one workspace.",
     },
     {
       title: "Earnings & invoices",
-      body: "Clear payment status from approved work to wallet.",
+      body: "Track payment status from work approval through to payment.",
     },
     {
       title: "Support Desk",
-      body: "Tickets, SLAs and a knowledge base, without losing the audit trail.",
+      body: "Manage support tickets, SLAs and knowledge resources while maintaining a complete audit trail.",
     },
   ],
   steps: {
@@ -74,7 +74,7 @@ export const creatorsPage: MarketingPageConfig = {
   deepDive: {
     eyebrow: "Your audience, understood",
     headline: "Know your worth\nbefore you negotiate.",
-    body: "Your rate should reflect what your audience actually does, not just how many of them there are. Inmind turns your channel data into evidence you can put in front of a brand.",
+    body: "Your rate should reflect what your audience actually does, not just how many of them there are. InMind turns your channel data into evidence you can put in front of a brand.",
     points: [
       "Audience quality, location and demographics across every connected channel.",
       "Engagement depth and content performance history in one view.",
@@ -95,7 +95,7 @@ export const brandsPage: MarketingPageConfig = {
   hero: {
     eyebrow: "For brands",
     headline: "Find creators.\nBuild relationships.\nProve the impact.",
-    body: "Inmind gives modern marketing teams the intelligence and infrastructure to run creator marketing from discovery through measurement.",
+    body: "InMind gives modern marketing teams the intelligence and infrastructure to manage creator marketing from discovery through to measurement.",
     primaryCta: { label: "Start a Campaign", href: "/contact" },
     secondaryCta: { label: "Explore platform", href: "/platform" },
     image: {
@@ -106,27 +106,27 @@ export const brandsPage: MarketingPageConfig = {
   features: [
     {
       title: "Intelligent discovery",
-      body: "Verified directory with Match Score™ against your brief.",
+      body: "Search a verified creator directory with Match Score™ rankings tailored to your brief.",
     },
     {
       title: "Campaign desks",
-      body: "Brief, recruit, approve, publish and report without tool-switching.",
+      body: "Brief and recruit creators, approve content, publish and report without switching between tools.",
     },
     {
       title: "Creator CRM",
-      body: "Partners you've worked with, history that compounds.",
+      body: "Keep a complete history of the creators and partners you've worked with, so every relationship becomes more valuable over time.",
     },
     {
       title: "Approvals",
-      body: "Creative QA with change notes and governance.",
+      body: "Review creative content with change tracking, approvals and governance controls.",
     },
     {
       title: "Social intelligence",
-      body: "Live performance after publish: views, ER, tracked actions.",
+      body: "Monitor live performance after publishing, including views, engagement rate and tracked actions.",
     },
     {
       title: "Attribution & reports",
-      body: "Exportable scorecards connecting exposure to outcomes.",
+      body: "Export scorecards that connect campaign exposure to measurable outcomes.",
     },
   ],
   steps: {
@@ -163,7 +163,7 @@ export const brandsPage: MarketingPageConfig = {
   deepDive: {
     eyebrow: "Proving the spend",
     headline: "Connect creator work\nto business outcomes.",
-    body: "Engagement is a signal, not a result. Inmind is built so you can defend creator budget in the same conversation as paid media.",
+    body: "Engagement is a signal, not a result. InMind is built so you can defend creator budget in the same conversation as paid media.",
     points: [
       "Trackable links, promo codes and QR journeys attached to each creator.",
       "Cost efficiency benchmarked against your paid social baseline.",
@@ -184,7 +184,7 @@ export const agenciesPage: MarketingPageConfig = {
   hero: {
     eyebrow: "For agencies",
     headline: "Run your creator business\nfrom one operating system.",
-    body: "Manage talent, clients, campaigns, approvals, reporting and revenue without stitching together five different tools.",
+    body: "Manage talent, clients, campaigns, approvals, reporting and revenue without having to piece together multiple tools.",
     primaryCta: { label: "Start a Campaign", href: "/contact" },
     image: {
       src: "/images/marketing/agencies/studio-01.webp",
@@ -194,27 +194,27 @@ export const agenciesPage: MarketingPageConfig = {
   features: [
     {
       title: "Multi-client book",
-      body: "Clients, campaigns and commissions across your entire roster.",
+      body: "Manage clients, campaigns and commissions across your entire portfolio.",
     },
     {
       title: "Talent roster & pools",
-      body: "Managed talent with intelligence for the next brief.",
+      body: "Manage your talent roster with insights that inform your next brief.",
     },
     {
       title: "Client campaigns",
-      body: "Operate on behalf of brands with clear ownership.",
+      body: "Manage campaigns on behalf of brands with clear ownership and accountability.",
     },
     {
       title: "Approvals & reporting",
-      body: "Client-ready reports with attribution and scorecards.",
+      body: "Create client-ready reports with attribution, performance data and scorecards.",
     },
     {
       title: "Finance & commissions",
-      body: "Escrow visibility and commission pipeline in one place.",
+      body: "Track escrow balances and commission pipelines in one place.",
     },
     {
       title: "Mission Control",
-      body: "What to do next across the book, not vanity dashboards.",
+      body: "See what needs attention across your entire portfolio, rather than relying on vanity dashboards.",
     },
   ],
   steps: {
@@ -271,7 +271,7 @@ export const resourcesPage: MarketingPageConfig = {
   hero: {
     eyebrow: "Resources",
     headline: "Understand what's shaping\nthe creator economy.",
-    body: "Notes on culture, campaign strategy, social intelligence and product updates from the Inmind team.",
+    body: "Insights on culture, campaign strategy, social intelligence and product updates from the InMind team.",
     primaryCta: { label: "Start a Campaign", href: "/contact" },
     image: {
       src: "/images/marketing/editorial/camera-01.webp",
@@ -279,11 +279,11 @@ export const resourcesPage: MarketingPageConfig = {
     },
   },
   features: [
-    { title: "Creator Economy", body: "Essays on infrastructure and influence." },
-    { title: "Campaign Strategy", body: "Briefs, mix and measurement frameworks." },
-    { title: "Social Intelligence", body: "Platform signals and creative patterns." },
-    { title: "Industry Reports", body: "Research drops as they ship." },
-    { title: "Product Updates", body: "What's new in Inmind OS." },
+    { title: "Creator Economy", body: "Essays exploring the infrastructure and ideas shaping influence." },
+    { title: "Campaign Strategy", body: "Campaign briefs, creator mix and measurement frameworks." },
+    { title: "Social Intelligence", body: "Insights into platform signals, audience behaviour and emerging creative patterns." },
+    { title: "Industry Reports", body: "Research and reports as they are released." },
+    { title: "Product Updates", body: "The latest product updates and improvements from InMind." },
     { title: "Culture", body: "The people and moments shaping taste." },
   ],
 };

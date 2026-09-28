@@ -10,7 +10,7 @@ export type JobOpening = {
 export const careersContent = {
   title: "Careers",
   description:
-    "Join Inmind and help build the operating system for creator marketing. Open roles in product, engineering, growth and operations.",
+    "Join InMind and help build the operating system for creator marketing. Open roles in product, engineering, growth and operations.",
   hero: {
     eyebrow: "Careers",
     headline: "Build the system\nbehind modern influence.",
@@ -23,7 +23,7 @@ export const careersContent = {
     },
   },
   why: {
-    eyebrow: "Why Inmind",
+    eyebrow: "Why InMind",
     headline: "Work on problems\nthat matter to the industry.",
     items: [
       {

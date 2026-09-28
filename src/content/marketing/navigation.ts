@@ -1,6 +1,6 @@
 export const SITE = {
-  name: "Inmind",
-  product: "Inmind",
+  name: "InMind",
+  product: "InMind",
   tagline: "Influence, intelligently managed.",
   url: "https://inmind.demo",
 } as const;
@@ -76,7 +76,7 @@ export const PLATFORM_MEGA: MegaSection[] = [
       {
         label: "Campaign Management",
         href: "/campaign-management",
-        description: "Brief to publish in one desk.",
+        description: "From brief to publishing in a single workflow.",
         icon: "campaign",
       },
       {
@@ -105,7 +105,7 @@ export const PLATFORM_MEGA: MegaSection[] = [
       {
         label: "Live Analytics",
         href: "/analytics",
-        description: "Know what’s working in flight.",
+        description: "Know what’s working while campaigns are live.",
         icon: "chart",
       },
       {
@@ -126,7 +126,7 @@ export const PLATFORM_MEGA: MegaSection[] = [
     title: "Intelligence",
     items: [
       {
-        label: "Inmind AI",
+        label: "InMind AI",
         href: "/ai",
         description: "What to do next, not just what happened.",
         icon: "spark",
@@ -158,7 +158,7 @@ export const FOOTER = {
         { label: "Creator Discovery", href: "/creator-discovery" },
         { label: "Campaigns", href: "/campaign-management" },
         { label: "Analytics", href: "/analytics" },
-        { label: "Inmind AI", href: "/ai" },
+        { label: "InMind AI", href: "/ai" },
         { label: "Social Intelligence", href: "/social-intelligence" },
       ],
     },

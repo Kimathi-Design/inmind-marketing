@@ -16,10 +16,10 @@ export const LEGAL_DOCS: LegalDoc[] = [
     label: "Privacy",
     title: "Privacy Notice",
     description:
-      "How Inmind collects, uses and protects personal data across our website and services.",
+      "How InMind collects, uses and protects personal data across our website and services.",
     updated: "01 June 2026",
     intro:
-      "This website or mobile application (the Application) is owned and operated by The ADMIND Limited (Inmind, we, us or our), a limited liability company registered in Kenya. You may contact us using the details set out in the Contact and support section below.",
+      "This website or mobile application (the Application) is owned and operated by The ADMIND Limited (InMind, we, us or our), a limited liability company registered in Kenya. You may contact us using the details set out in the Contact and support section below.",
     body: [
       { type: "h2", text: "1. Purpose and scope of this notice" },
       {
@@ -45,7 +45,7 @@ export const LEGAL_DOCS: LegalDoc[] = [
       },
       {
         type: "p",
-        text: "Where identity verification is required, you authorise Inmind to collect and share relevant identification information with Smile Identity Inc. so that the information can be verified against official sources, as explained in the identity verification section below.",
+        text: "Where identity verification is required, you authorise InMind to collect and share relevant identification information with Smile Identity Inc. so that the information can be verified against official sources, as explained in the identity verification section below.",
       },
       { type: "h2", text: "3. Information collected automatically" },
       {
@@ -59,7 +59,7 @@ export const LEGAL_DOCS: LegalDoc[] = [
       { type: "h2", text: "4. Identity checks and facial recognition" },
       {
         type: "p",
-        text: "To help maintain a secure creator commerce platform, Inmind uses identity verification tools provided by SmileID, a third-party provider that supports digital identity verification, fraud prevention, anti-money laundering checks and know-your-customer compliance.",
+        text: "To help maintain a secure creator commerce platform, InMind uses identity verification tools provided by SmileID, a third-party provider that supports digital identity verification, fraud prevention, anti-money laundering checks and know-your-customer compliance.",
       },
       { type: "h3", text: "Verification consent and requirement" },
       {
@@ -84,16 +84,16 @@ export const LEGAL_DOCS: LegalDoc[] = [
       { type: "h3", text: "Why verification data is used" },
       {
         type: "p",
-        text: "Identity verification information is collected and processed for user identity verification and for compliance with legal and regulatory obligations, including anti-money laundering and identity theft prevention requirements. Verification data may also be processed where necessary to perform contractual obligations with brand companies and other Inmind partners. It will be used only for identity verification and related compliance purposes, unless we obtain your consent for a different or additional purpose.",
+        text: "Identity verification information is collected and processed for user identity verification and for compliance with legal and regulatory obligations, including anti-money laundering and identity theft prevention requirements. Verification data may also be processed where necessary to perform contractual obligations with brand companies and other InMind partners. It will be used only for identity verification and related compliance purposes, unless we obtain your consent for a different or additional purpose.",
       },
       { type: "h3", text: "Storage, sharing, protection and retention" },
       {
         type: "p",
-        text: "SmileID stores verification data securely and applies safeguards such as encryption and access controls to protect it from unauthorised access or breaches. Inmind may access the data only where necessary to monitor processing activities, meet its data controller obligations and support compliance and security. Facial recognition and related verification data are shared with SmileID solely for identity verification, and are not disclosed to other third parties unless required by law or unless you have given express consent.",
+        text: "SmileID stores verification data securely and applies safeguards such as encryption and access controls to protect it from unauthorised access or breaches. InMind may access the data only where necessary to monitor processing activities, meet its data controller obligations and support compliance and security. Facial recognition and related verification data are shared with SmileID solely for identity verification, and are not disclosed to other third parties unless required by law or unless you have given express consent.",
       },
       {
         type: "p",
-        text: "Verification data is retained only for as long as necessary for the purposes described in this notice or as required by law. Retention will generally continue while the relevant account remains active. Once an account has been deleted and all applicable retention periods have expired, Inmind will notify SmileID so that the relevant identity verification data can be permanently erased.",
+        text: "Verification data is retained only for as long as necessary for the purposes described in this notice or as required by law. Retention will generally continue while the relevant account remains active. Once an account has been deleted and all applicable retention periods have expired, InMind will notify SmileID so that the relevant identity verification data can be permanently erased.",
       },
       { type: "h2", text: "5. How and why we use personal data" },
       {
@@ -103,14 +103,14 @@ export const LEGAL_DOCS: LegalDoc[] = [
           "To contact you about user, customer or member surveys and use any information you choose to provide in response, where you consented to being contacted for that purpose.",
           "To administer contests, promotions or similar activities and to notify you of the outcome using the email address supplied.",
           "To send newsletters where you have opted in. You may unsubscribe at any time using the link included at the bottom of each newsletter email.",
-          "To allow Inmind, its affiliated businesses or selected third-party service providers to send you information about goods, services, events or promotions that may interest you, by email and only where you provided consent.",
+          "To allow InMind, its affiliated businesses or selected third-party service providers to send you information about goods, services, events or promotions that may interest you, by email and only where you provided consent.",
           "To use your personal data for any other purpose to which you consent at the time the information is provided.",
           "To support legitimate business interests, including responding to inquiries or complaints, administering and improving the Application, analysing usage, personalising member communications, maintaining suppression lists, anonymising or aggregating data for research, conducting technical operations, and protecting legal rights or complying with obligations.",
         ],
       },
       {
         type: "p",
-        text: "In this notice, legitimate interests means the interests of Inmind and its affiliated businesses in operating and managing the organisation. When relying on legitimate interests, we consider and balance the potential impact on you and your rights under data protection laws.",
+        text: "In this notice, legitimate interests means the interests of InMind and its affiliated businesses in operating and managing the organisation. When relying on legitimate interests, we consider and balance the potential impact on you and your rights under data protection laws.",
       },
       { type: "h2", text: "6. Disclosure of personal data" },
       {
@@ -119,7 +119,7 @@ export const LEGAL_DOCS: LegalDoc[] = [
           "Service providers: we may engage selected third parties to support our operations, including payment processors, credit reference agencies, IT suppliers and contractors, data hosting providers, delivery partners, web analytics providers, digital advertising providers, and marketing or sales software providers. These parties may access, process or store personal data only as necessary to perform the services we have instructed them to provide.",
           "Affiliated businesses: as we operate across different locations, our affiliated businesses may access and process the information we collect from you to provide requested services. They may only use your information for the purposes for which it was originally collected.",
           "Business transfers: if our business is sold or our company assets are acquired by a third party, personal data relating to applicants, members or customers may form part of the transferred assets.",
-          "Administrative, legal and protective reasons: we may disclose personal data where necessary to comply with legal obligations, judicial or regulatory proceedings, court orders or other legal processes, to enforce our terms, or to protect Inmind, our members, applicants, customers or contractors from loss or harm.",
+          "Administrative, legal and protective reasons: we may disclose personal data where necessary to comply with legal obligations, judicial or regulatory proceedings, court orders or other legal processes, to enforce our terms, or to protect InMind, our members, applicants, customers or contractors from loss or harm.",
         ],
       },
       { type: "h2", text: "7. Payment information" },
@@ -185,15 +185,15 @@ export const LEGAL_DOCS: LegalDoc[] = [
     label: "Terms",
     title: "Platform Use Agreement",
     description:
-      "The terms that govern access to and use of Inmind applications, websites, content, products and services.",
+      "The terms that govern access to and use of InMind applications, websites, content, products and services.",
     updated: "01 June 2026",
     intro:
-      "These Terms of Use regulate your access to and use of the applications, websites, content, products and services made available in the country where you are located by Inmind, including its subsidiaries, representatives, affiliates, officers and directors. Please review these terms carefully before accessing or using the services.",
+      "These Terms of Use regulate your access to and use of the applications, websites, content, products and services made available in the country where you are located by InMind, including its subsidiaries, representatives, affiliates, officers and directors. Please review these terms carefully before accessing or using the services.",
     body: [
       { type: "h2", text: "1. Agreement formation and acceptance" },
       {
         type: "p",
-        text: "By accessing or using the services, you agree to be bound by these terms, creating a contractual relationship between you and Inmind. If you do not accept these terms, you must not access or use the services. These terms replace any previous agreements or arrangements between you and Inmind. Inmind may terminate these terms or any services as they apply to you, or may stop offering or restrict access to all or part of the services, at any time and for any reason.",
+        text: "By accessing or using the services, you agree to be bound by these terms, creating a contractual relationship between you and InMind. If you do not accept these terms, you must not access or use the services. These terms replace any previous agreements or arrangements between you and InMind. InMind may terminate these terms or any services as they apply to you, or may stop offering or restrict access to all or part of the services, at any time and for any reason.",
       },
       {
         type: "p",
@@ -201,28 +201,28 @@ export const LEGAL_DOCS: LegalDoc[] = [
       },
       {
         type: "p",
-        text: "Inmind may update these terms from time to time. Any changes take effect once Inmind posts the updated terms at this location or publishes amended policies on the relevant service. Continued access to or use of the services after posting constitutes acceptance of the amended terms. Inmind's collection and use of personal information in connection with the services is explained in the privacy notice.",
+        text: "InMind may update these terms from time to time. Any changes take effect once InMind posts the updated terms at this location or publishes amended policies on the relevant service. Continued access to or use of the services after posting constitutes acceptance of the amended terms. InMind's collection and use of personal information in connection with the services is explained in the privacy notice.",
       },
       { type: "h2", text: "2. Platform services and access rights" },
       {
         type: "p",
-        text: "The services consist of a technology platform that enables users of Inmind applications or websites to allow advertisers to create social media marketing campaigns and obtain the services of creators who perform marketing services based on information supplied by users. Unless Inmind agrees otherwise with you in a separate written agreement, the services are provided only for your personal use.",
+        text: "The services consist of a technology platform that enables users of InMind applications or websites to allow advertisers to create social media marketing campaigns and obtain the services of creators who perform marketing services based on information supplied by users. Unless InMind agrees otherwise with you in a separate written agreement, the services are provided only for your personal use.",
       },
       {
         type: "p",
-        text: "You acknowledge that Inmind does not itself provide social media marketing campaigns or marketing services, nor does it act as an advertiser or creator. All such services are provided by independent third-party contractors who are not employees of Inmind or any of its affiliates.",
+        text: "You acknowledge that InMind does not itself provide social media marketing campaigns or marketing services, nor does it act as an advertiser or creator. All such services are provided by independent third-party contractors who are not employees of InMind or any of its affiliates.",
       },
       { type: "h3", text: "Licence" },
       {
         type: "p",
-        text: "Provided that you comply with these terms, Inmind grants you a limited, non-exclusive, non-sublicensable, revocable and non-transferable licence to access and use the applications on your personal device solely in connection with your use of the services, and to access and use any content, information and related materials made available through the services solely for your personal, non-commercial use. All rights not expressly granted are reserved by Inmind and its licensors.",
+        text: "Provided that you comply with these terms, InMind grants you a limited, non-exclusive, non-sublicensable, revocable and non-transferable licence to access and use the applications on your personal device solely in connection with your use of the services, and to access and use any content, information and related materials made available through the services solely for your personal, non-commercial use. All rights not expressly granted are reserved by InMind and its licensors.",
       },
       { type: "h3", text: "Restrictions" },
       {
         type: "ul",
         items: [
           "Do not remove copyright, trademark or other proprietary notices from any part of the services.",
-          "Do not copy, modify, create derivative works from, distribute, license, lease, sell, resell, transfer, publicly display, publicly perform, transmit, stream, broadcast or otherwise exploit the services except as expressly allowed by Inmind.",
+          "Do not copy, modify, create derivative works from, distribute, license, lease, sell, resell, transfer, publicly display, publicly perform, transmit, stream, broadcast or otherwise exploit the services except as expressly allowed by InMind.",
           "Do not decompile, reverse engineer or disassemble the services except where permitted by applicable law.",
           "Do not link to, mirror or frame any part of the services.",
           "Do not run or introduce any programs or scripts designed to scrape, index, survey, data mine, overload or interfere with the operation of any part of the services.",
@@ -232,13 +232,13 @@ export const LEGAL_DOCS: LegalDoc[] = [
       { type: "h3", text: "Service delivery, external services and IP" },
       {
         type: "p",
-        text: "Certain parts of the services may be offered under Inmind's various brands or request options, and may be provided by Inmind subsidiaries and affiliates or by independent third-party providers including marketing companies, media houses, advertisers and creators. The services may also be available through, or used together with, third-party services and content that Inmind does not control, and separate terms and privacy policies may govern your use of those. The services, together with all rights connected to them, remain the property of Inmind or its licensors, and these terms do not give you rights to use Inmind's names, logos, trademarks or service marks.",
+        text: "Certain parts of the services may be offered under InMind's various brands or request options, and may be provided by InMind subsidiaries and affiliates or by independent third-party providers including marketing companies, media houses, advertisers and creators. The services may also be available through, or used together with, third-party services and content that InMind does not control, and separate terms and privacy policies may govern your use of those. The services, together with all rights connected to them, remain the property of InMind or its licensors, and these terms do not give you rights to use InMind's names, logos, trademarks or service marks.",
       },
       { type: "h2", text: "3. User access, accounts and conduct" },
       { type: "h3", text: "Account registration and security" },
       {
         type: "p",
-        text: "To use most parts of the services, you must create and keep an active personal account. You must be at least 18 years old, or the age of legal majority in your jurisdiction if higher. Registration requires certain personal details, including your name, address, mobile phone number and age, as well as at least one valid payment method. You agree to keep your account information accurate, complete and current. You are responsible for all activity carried out under your account and must keep your username and password secure. Unless Inmind gives written permission, you may hold only one account.",
+        text: "To use most parts of the services, you must create and keep an active personal account. You must be at least 18 years old, or the age of legal majority in your jurisdiction if higher. Registration requires certain personal details, including your name, address, mobile phone number and age, as well as at least one valid payment method. You agree to keep your account information accurate, complete and current. You are responsible for all activity carried out under your account and must keep your username and password secure. Unless InMind gives written permission, you may hold only one account.",
       },
       { type: "h3", text: "Eligibility and acceptable use" },
       {
@@ -248,16 +248,16 @@ export const LEGAL_DOCS: LegalDoc[] = [
       { type: "h3", text: "Content submitted by users" },
       {
         type: "p",
-        text: "Inmind may allow you to submit, upload, publish or otherwise provide text, audio, visual content and information through the services. Any user content you provide remains your property. However, by providing user content to Inmind, you grant Inmind a worldwide, perpetual, irrevocable, transferable, royalty-free licence, including the right to sublicense, to use, copy, modify, create derivative works from, distribute, publicly display, publicly perform and otherwise exploit that user content in any manner and through any format or distribution channel now known or later developed.",
+        text: "InMind may allow you to submit, upload, publish or otherwise provide text, audio, visual content and information through the services. Any user content you provide remains your property. However, by providing user content to InMind, you grant InMind a worldwide, perpetual, irrevocable, transferable, royalty-free licence, including the right to sublicense, to use, copy, modify, create derivative works from, distribute, publicly display, publicly perform and otherwise exploit that user content in any manner and through any format or distribution channel now known or later developed.",
       },
       {
         type: "p",
-        text: "You represent and warrant that you are either the sole and exclusive owner of all user content or you hold all rights, licences, consents and releases necessary to grant the licence described above, and that the content does not infringe, misappropriate or violate any third party's intellectual property, proprietary rights, publicity rights, privacy rights or any applicable law. You agree not to provide user content that is defamatory, libellous, hateful, violent, obscene, pornographic, unlawful or otherwise offensive. Inmind may, but is not required to, review, monitor or remove user content at its sole discretion.",
+        text: "You represent and warrant that you are either the sole and exclusive owner of all user content or you hold all rights, licences, consents and releases necessary to grant the licence described above, and that the content does not infringe, misappropriate or violate any third party's intellectual property, proprietary rights, publicity rights, privacy rights or any applicable law. You agree not to provide user content that is defamatory, libellous, hateful, violent, obscene, pornographic, unlawful or otherwise offensive. InMind may, but is not required to, review, monitor or remove user content at its sole discretion.",
       },
       { type: "h3", text: "Connectivity, devices and system access" },
       {
         type: "p",
-        text: "You are responsible for securing the data network access required to use the services, and for any data and messaging charges that apply. You are also responsible for obtaining and maintaining compatible hardware or devices needed to access and use the services and any related updates. Inmind does not guarantee that the services will operate on any specific hardware or device, and the services may be affected by failures and delays inherent in internet and electronic communications.",
+        text: "You are responsible for securing the data network access required to use the services, and for any data and messaging charges that apply. You are also responsible for obtaining and maintaining compatible hardware or devices needed to access and use the services and any related updates. InMind does not guarantee that the services will operate on any specific hardware or device, and the services may be affected by failures and delays inherent in internet and electronic communications.",
       },
       { type: "h2", text: "4. Advertising restrictions and compliance rules" },
       {
@@ -266,7 +266,7 @@ export const LEGAL_DOCS: LegalDoc[] = [
           "Alcohol content: advertising involving alcohol must be targeted only to the appropriate legal age group and is completely prohibited in certain countries, including Gambia, Egypt, Afghanistan, Brunei, Bangladesh, Kuwait, Libya and Turkey. All local rules governing alcohol marketing and distribution must be followed.",
           "Discriminatory practices: advertisements must not discriminate against, or promote discrimination against, people on the basis of personal characteristics such as race, ethnicity, colour, national origin, religion, age, sex, sexual orientation, gender identity, family status, disability, medical condition or genetic condition.",
           "Government and social affairs: government advertisements and social issue content are permitted provided they contain factual information and do not include misleading statements.",
-          "Pharmaceuticals: prescription medicines may not be promoted through Inmind. Over-the-counter medicines are permitted, provided they comply with applicable local regulations.",
+          "Pharmaceuticals: prescription medicines may not be promoted through InMind. Over-the-counter medicines are permitted, provided they comply with applicable local regulations.",
           "Inappropriate content: content involving sexual material, gambling, cryptocurrency, spyware or malware, drugs and drug paraphernalia, copyright or trademark infringement, counterfeit goods, unauthorised ticket sales, weapons and weapon accessories is prohibited.",
         ],
       },
@@ -290,7 +290,7 @@ export const LEGAL_DOCS: LegalDoc[] = [
         type: "ul",
         items: [
           "Sexual content: pornography, escort services and prostitution, full and partial nudity, modelled clothing that is sexual in nature, dating sites focused on facilitating sexual encounters or infidelity, and dating sites in which money, goods or services are exchanged in return for a date.",
-          "Gambling content: gambling-related content is prohibited on and around the Inmind platform.",
+          "Gambling content: gambling-related content is prohibited on and around the InMind platform.",
           "Cryptocurrency: promotion of cryptocurrency trading or mining is prohibited.",
           "Drugs and drug paraphernalia: promotion of any substance that is illegal under applicable local or state laws is prohibited, including recreational and herbal drugs, accessories associated with drug use, dispensaries and depictions of hard drug use.",
           "Trademark and copyright infringement: campaigns must not display content, links, images or embedded media that could mislead users about the advertiser's brand affiliation, including promoted trend names that use third-party names misleadingly.",
@@ -300,34 +300,34 @@ export const LEGAL_DOCS: LegalDoc[] = [
       { type: "h2", text: "6. Charges, payments and taxes" },
       {
         type: "p",
-        text: "Using the services may result in charges for services or goods received from a third-party provider. When you request access to certain services obtained through Inmind, Inmind will facilitate payment of the applicable charges on behalf of the third-party provider, acting as that provider's limited payment collection agent. Payment made in this way is treated as if you had paid the third-party provider directly. Charges may include other applicable fees, such as booking and processing fees, and will include applicable taxes where required by law. Charges paid are final and non-refundable unless Inmind determines otherwise.",
+        text: "Using the services may result in charges for services or goods received from a third-party provider. When you request access to certain services obtained through InMind, InMind will facilitate payment of the applicable charges on behalf of the third-party provider, acting as that provider's limited payment collection agent. Payment made in this way is treated as if you had paid the third-party provider directly. Charges may include other applicable fees, such as booking and processing fees, and will include applicable taxes where required by law. Charges paid are final and non-refundable unless InMind determines otherwise.",
       },
       {
         type: "p",
-        text: "Inmind may set, remove or revise charges at any time and at its sole discretion, and charges in certain geographic areas may increase significantly during periods of high demand. Inmind will make reasonable efforts to notify you of applicable charges, but you remain responsible for charges incurred under your account. From time to time, Inmind may offer promotional offers or discounts to certain users. You may cancel a request for services before the third-party provider accepts it, in which case a cancellation fee may apply.",
+        text: "InMind may set, remove or revise charges at any time and at its sole discretion, and charges in certain geographic areas may increase significantly during periods of high demand. InMind will make reasonable efforts to notify you of applicable charges, but you remain responsible for charges incurred under your account. From time to time, InMind may offer promotional offers or discounts to certain users. You may cancel a request for services before the third-party provider accepts it, in which case a cancellation fee may apply.",
       },
       { type: "h3", text: "Tax deductions and declarations" },
       {
         type: "p",
-        text: "All payments are subject to the applicable tax laws and rates of the jurisdiction in which the creator is based. Creators based in Kenya will receive income after deduction of withholding tax and will be issued a withholding certificate as proof of the tax deducted. Creators in other countries will receive gross payment and will be responsible for filing and paying any taxes due from them. Inmind will not be liable for any tax evasion or failure by such creators to comply with their tax obligations.",
+        text: "All payments are subject to the applicable tax laws and rates of the jurisdiction in which the creator is based. Creators based in Kenya will receive income after deduction of withholding tax and will be issued a withholding certificate as proof of the tax deducted. Creators in other countries will receive gross payment and will be responsible for filing and paying any taxes due from them. InMind will not be liable for any tax evasion or failure by such creators to comply with their tax obligations.",
       },
       { type: "h3", text: "Payment collection methods" },
       {
         type: "p",
-        text: "All charges are payable immediately, and Inmind will facilitate payment using the preferred payment method listed in your account, then send a receipt by email. If your primary payment method is expired, invalid or cannot be charged, you agree that Inmind, acting as the third-party provider's limited payment collection agent, may use any secondary payment method available in your account. If payments are delayed for any reason, contact support@inmind.media or use the in-app support chat.",
+        text: "All charges are payable immediately, and InMind will facilitate payment using the preferred payment method listed in your account, then send a receipt by email. If your primary payment method is expired, invalid or cannot be charged, you agree that InMind, acting as the third-party provider's limited payment collection agent, may use any secondary payment method available in your account. If payments are delayed for any reason, contact support@inmind.media or use the in-app support chat.",
       },
       { type: "h2", text: "7. Warranties, liability limits and protection" },
       {
         type: "p",
-        text: "The services are provided on an as is and as available basis. Inmind disclaims all representations and warranties, whether express, implied or statutory, that are not expressly stated in these terms, including implied warranties of merchantability, fitness for a particular purpose and non-infringement. Inmind makes no representation, warranty or guarantee about the reliability, timeliness, quality, suitability or availability of the services, or that the services will be uninterrupted or free from errors, and does not guarantee the quality, suitability, safety or ability of third-party providers.",
+        text: "The services are provided on an as is and as available basis. InMind disclaims all representations and warranties, whether express, implied or statutory, that are not expressly stated in these terms, including implied warranties of merchantability, fitness for a particular purpose and non-infringement. InMind makes no representation, warranty or guarantee about the reliability, timeliness, quality, suitability or availability of the services, or that the services will be uninterrupted or free from errors, and does not guarantee the quality, suitability, safety or ability of third-party providers.",
       },
       {
         type: "p",
-        text: "Inmind shall not be liable for any indirect, incidental, special, exemplary, punitive or consequential damages, including loss of profits, loss of data, personal injury or property damage arising from, connected with or resulting from any use of the services, even if Inmind has been advised that such damages may occur. This includes damages arising from your use of or reliance on the services, your inability to access them, or any transaction or relationship between you and any third-party provider. These limitations are not intended to limit liability or change any consumer rights that cannot be excluded under applicable law.",
+        text: "InMind shall not be liable for any indirect, incidental, special, exemplary, punitive or consequential damages, including loss of profits, loss of data, personal injury or property damage arising from, connected with or resulting from any use of the services, even if InMind has been advised that such damages may occur. This includes damages arising from your use of or reliance on the services, your inability to access them, or any transaction or relationship between you and any third-party provider. These limitations are not intended to limit liability or change any consumer rights that cannot be excluded under applicable law.",
       },
       {
         type: "p",
-        text: "You agree to indemnify and hold harmless Inmind and its officers, directors, employees and agents from all claims, demands, losses, liabilities and expenses, including legal fees, arising from or connected with your use of the services, your breach of these terms, Inmind's use of your user content, or your violation of any third party's rights.",
+        text: "You agree to indemnify and hold harmless InMind and its officers, directors, employees and agents from all claims, demands, losses, liabilities and expenses, including legal fees, arising from or connected with your use of the services, your breach of these terms, InMind's use of your user content, or your violation of any third party's rights.",
       },
       { type: "h2", text: "8. Applicable law and dispute process" },
       {
@@ -341,11 +341,11 @@ export const LEGAL_DOCS: LegalDoc[] = [
       { type: "h2", text: "9. Miscellaneous legal terms" },
       {
         type: "p",
-        text: "Copyright infringement claims should be directed to Inmind's designated agent. Inmind may provide notices through a general notice on the services, by email to the address listed in your account, or by written communication sent to the address recorded in your account. You may give notice to Inmind by sending written communication to Inmind's address.",
+        text: "Copyright infringement claims should be directed to InMind's designated agent. InMind may provide notices through a general notice on the services, by email to the address listed in your account, or by written communication sent to the address recorded in your account. You may give notice to InMind by sending written communication to InMind's address.",
       },
       {
         type: "p",
-        text: "You may not assign or transfer these terms without Inmind's prior written consent. You authorise Inmind to assign or transfer these terms, in whole or in part, including to a subsidiary or affiliate, a purchaser of Inmind's equity, business or assets, or a successor following a merger. No joint venture, partnership, employment or agency relationship is created between you, Inmind or any third-party provider.",
+        text: "You may not assign or transfer these terms without InMind's prior written consent. You authorise InMind to assign or transfer these terms, in whole or in part, including to a subsidiary or affiliate, a purchaser of InMind's equity, business or assets, or a successor following a merger. No joint venture, partnership, employment or agency relationship is created between you, InMind or any third-party provider.",
       },
       {
         type: "p",
@@ -358,7 +358,7 @@ export const LEGAL_DOCS: LegalDoc[] = [
     label: "Cookies",
     title: "Website Cookie Notice",
     description:
-      "How Inmind uses cookies and similar technologies, and the choices available to you.",
+      "How InMind uses cookies and similar technologies, and the choices available to you.",
     updated: "01 June 2026",
     intro:
       "This cookie notice explains how The AdMind Limited uses cookies and similar technologies when you access or use our website. It describes what these technologies are, why we use them, and the choices available to you. In some cases, cookies may collect information that identifies you directly, or information that could identify you when combined with other data.",

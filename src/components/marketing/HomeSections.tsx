@@ -424,8 +424,8 @@ export function DiscoverySection() {
               ))}
             </ul>
             <p className="mt-4 text-[12.5px] leading-relaxed text-[var(--im-muted)]">
-              Match Score™ ranks audience fit, authenticity and brand alignment
-              before reach.
+              Match Score™ prioritises audience fit, authenticity and brand
+              alignment, not just reach.
             </p>
           </Glass>
         </div>
@@ -440,8 +440,8 @@ export function CreatorWall() {
       <div className="mx-auto mb-10 w-full max-w-[1440px] px-5 sm:px-6 md:px-8 lg:px-10 xl:px-12">
         <SectionHeader
           eyebrow="Creators"
-          headline="People who move culture."
-          body="An editorial view of the talent graph, not a marketplace grid."
+          headline="Creators who move culture."
+          body="An editorial view of the talent landscape, rather than a conventional marketplace grid."
         />
       </div>
       <div className="mx-auto grid w-full max-w-[1440px] grid-cols-2 gap-3 px-5 sm:px-6 md:grid-cols-3 md:gap-4 md:px-8 lg:grid-cols-6 lg:px-10 xl:px-12">
@@ -801,7 +801,7 @@ export function AnalyticsPreview() {
                       4.8M
                     </p>
                     <Badge tone="success" dot>
-                      +18% vs last flight
+                      +18% vs last campaign
                     </Badge>
                   </div>
                   <p className="mt-2 text-[13px] text-[var(--im-muted)]">
@@ -867,10 +867,10 @@ export function AnalyticsPreview() {
                 Creator performance
               </p>
               <p className="mt-2 text-[22px] font-semibold tracking-[-0.03em]">
-                Who&apos;s carrying the flight
+                Who&apos;s driving campaign performance
               </p>
               <p className="mt-1 text-[13px] text-[var(--im-on-ink)]/55">
-                Relative delivery score across seated creators.
+                Relative delivery score across participating creators.
               </p>
               <div className="mt-5 flex min-h-0 flex-1 flex-col rounded-[16px] border border-[var(--im-on-ink)]/10 bg-[var(--im-on-ink)]/[0.06] pt-3">
                 <div className="min-h-[160px] flex-1 px-1.5 pb-2 md:min-h-[180px]">
@@ -897,7 +897,7 @@ export function RelationshipCRM() {
   const timeline = [
     {
       when: "Mar 2026",
-      title: "Lipa Na M-Pesa · seated",
+      title: "Lipa Na M-Pesa · confirmed",
       detail: "Approved · 1.2M views · ER 9.1%",
       tone: "success" as const,
     },
@@ -1028,7 +1028,7 @@ export function Ecosystem() {
         <SectionHeader
           align="center"
           headline={home.ecosystem.headline}
-          body="Creators, brands and agencies share one intelligence layer: campaigns, social, analytics, AI and payments connected."
+          body="Creators, brands and agencies share one connected intelligence layer across campaigns, social, analytics, AI and payments."
         />
         <div className="mx-auto mt-14 flex max-w-3xl flex-col items-center gap-4">
           {["Creators", "Brands", "Agencies"].map((node, i) => (
@@ -1043,7 +1043,7 @@ export function Ecosystem() {
           ))}
           <FadeUp delay={0.3}>
             <div className="mt-2 rounded-full bg-[var(--im-ink)] px-5 py-2 text-[13px] font-medium text-[var(--im-on-ink)]">
-              Inmind Intelligence
+              InMind Intelligence
             </div>
           </FadeUp>
         </div>

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-export default function NotFound() {
+export default function GlobalNotFound() {
   return (
     <html lang="en" className={`${jost.variable} h-full`} suppressHydrationWarning>
       <head>
@@ -27,7 +27,7 @@ export default function NotFound() {
         <ThemeProvider>
           <div className="im-atmosphere flex min-h-screen flex-col overflow-x-clip bg-[var(--im-page)] text-[var(--im-ink)]">
             <header className="px-5 pt-8 sm:px-8">
-              <Link href="/" aria-label="Inmind home" className="inline-flex">
+              <Link href="/" aria-label="InMind home" className="inline-flex">
                 <BrandMark />
               </Link>
             </header>
