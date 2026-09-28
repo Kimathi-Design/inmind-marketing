@@ -189,23 +189,23 @@ export function Hero() {
                   >
                     <div className="flex items-center gap-2 sm:gap-2.5">
                       <Avatar
-                        name="Dennis Ombachi"
-                        src="/avatars/dennis-ombachi.webp"
+                        name="Bien Baraza"
+                        src="/avatars/bien-baraza.webp"
                         size="sm"
                         className="sm:hidden"
                       />
                       <Avatar
-                        name="Dennis Ombachi"
-                        src="/avatars/dennis-ombachi.webp"
+                        name="Bien Baraza"
+                        src="/avatars/bien-baraza.webp"
                         size="md"
                         className="hidden sm:block"
                       />
                       <div className="min-w-0">
                         <p className="truncate text-[12px] font-semibold tracking-[-0.02em] sm:text-[13.5px]">
-                          Dennis Ombachi
+                          Bien Baraza
                         </p>
                         <p className="text-[10px] text-[var(--im-muted)] sm:text-[11.5px]">
-                          Culinary · Nairobi
+                          Music · Nairobi
                         </p>
                       </div>
                     </div>
@@ -220,7 +220,7 @@ export function Hero() {
                       </div>
                       <div>
                         <p className="text-[11.5px] font-semibold tabular-nums tracking-[-0.02em] sm:text-[13px]">
-                          1.6M
+                          1.2M
                         </p>
                         <p className="mt-0.5 text-[8.5px] uppercase tracking-[0.06em] text-[var(--im-muted)] sm:text-[9.5px]">
                           IG
@@ -228,7 +228,7 @@ export function Hero() {
                       </div>
                       <div>
                         <p className="text-[11.5px] font-semibold tabular-nums tracking-[-0.02em] sm:text-[13px]">
-                          4.2%
+                          3.8%
                         </p>
                         <p className="mt-0.5 text-[8.5px] uppercase tracking-[0.06em] text-[var(--im-muted)] sm:text-[9.5px]">
                           ER

@@ -316,7 +316,7 @@ export function PlatformOverview() {
 export function DiscoverySection() {
   const d = home.discovery;
   const matches = [
-    { name: "Dennis O.", score: 98, src: "/avatars/dennis-ombachi.webp" },
+    { name: "Kariuki K.", score: 98, src: "/avatars/kariuki-kamau.webp" },
     { name: "Bien B.", score: 95, src: "/avatars/bien-baraza.webp" },
     { name: "Janet M.", score: 92, src: "/avatars/janet-mbugua.webp" },
   ];
@@ -453,6 +453,7 @@ export function CreatorWall() {
                 alt={c.name}
                 fill
                 hoverZoom
+                objectPosition={"objectPosition" in c ? c.objectPosition : undefined}
                 className="absolute inset-0 h-full w-full"
                 sizes="(max-width: 768px) 50vw, 20vw"
               />
@@ -954,16 +955,16 @@ export function RelationshipCRM() {
               <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[var(--im-line)] pb-4">
                 <div className="flex items-center gap-3">
                   <Avatar
-                    name="Dennis Ombachi"
-                    src="/avatars/dennis-ombachi.webp"
+                    name="Bien Baraza"
+                    src="/avatars/bien-baraza.webp"
                     size="lg"
                   />
                   <div>
                     <p className="text-[16px] font-semibold tracking-[-0.02em]">
-                      Dennis Ombachi
+                      Bien Baraza
                     </p>
                     <p className="text-[13px] text-[var(--im-muted)]">
-                      Culinary · Nairobi · 3 campaigns together
+                      Music · Nairobi · 3 campaigns together
                     </p>
                   </div>
                 </div>
